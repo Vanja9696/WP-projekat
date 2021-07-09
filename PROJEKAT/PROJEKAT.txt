@@ -1,0 +1,22 @@
+ONLINE DOSTAVA ZA RESTORAN
+Kada korisnik pokrene sajt otvara se input meni sa podacima za dostavu(Ime, prezime, adresa)
+Prebacuje se na pocetni meni
+U pocetnom meniju razlicite opcije(predjelo, glavno jelo, dezerti, pice)
+Birajuci jednu od opcija prebacuje se na izabranu stranicu.Iz baze se povlace podaci iz razlicitih entiteta u zavisnosti od izabranog menija
+Naci nacin za uvecanje i ubacivanje u korpu
+Na pocetnoj stranici u navbaru ime restorana i korpa 
+==============================
+Login
+Ili nastavite kao gost
+Ako nastavlja kao gost prebacuje ga na pocetnu i onda u korpi ima opciju za unos adrese koja se ne cuva
+ako login prosledjuje se ulogovan korisnik i iz tog entiteta se uzimaju podaci
+Pocetna strana
+Input polja za unos adrese 
+mora biti u tabeli cena i kolicina
+na dugme ce se povecavati kolicina
+Dugme za dodavanje u korpu da se uradi kao izmeni forma
+Gde ce jedino input polje za izmenu biti opis i kolicina
+imace dugme dodaj u korpu koje ce to menjati, dodavati u entitet u bazi ( kada kupac pritisne dugme za 
+racun isprazniti ceo entitet ) i vracati ga na prethodnu stranu, kao i dugme nazad koje ce isto to
+raditi samo bez refresh funkcije
+u korpi opet imati listu sa 
